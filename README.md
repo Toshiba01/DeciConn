@@ -6,7 +6,7 @@ After you launch the application, a webserver will run on port 8080. You can acc
 
 http://localhost:8080/list - will list your device serial number. The API is using serial number to identify between multiple devices. ( Yes you can use multiple devices ) 
 
-http://localhost:8080/status/<serial-number> - will give you a status read of the FTDI chip showing what model of the device it is and other bits. Don't use "<>" when you put your serial number. (i.e http://localhost:8080/status/MDA01705)
+http://localhost:8080/status/your-serial - will give you a status read of the FTDI chip showing what model of the device it is and other bits (i.e http://localhost:8080/status/MDA01705)
 
 http://localhost:8080/set/your-serial/NumWindows/tilesNo - this function sets the multiview Windows number. !Warning - the numbering starts from 0 rather than 1 so if you want a 4 way multiview you need to type "3" not "4" 
 
