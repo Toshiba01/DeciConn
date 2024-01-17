@@ -1,9 +1,9 @@
 "# DeciConn" 
 
 This software is free for use, please use this with your own judgment, this can break your device - I'm not assuming any responsibility if it happens to damage your device. 
-This repository it made the original work of Quentin and Stuart to be available on windows using a different libftdi library. All the work was done by the two gents.
+The original work for the library behind this repo was done by Quentin and Stuart under unix based operating systems. I have only ported some code for a library (pylibftdi) to be available on windows using a different ftdi library.
 
-After you launch the application, a webserver will run on port 8080. You can access it either via your "localhost" or via local ip (or public ip after you setup your portforwarding). 
+After you launch the application, a webserver will run on port 8080. You can access it either via your "localhost" or via local ip (or public ip after you setup your portforwarding) using a web browser or you can fire http get commands via POSTMAN or any other software ( Companion for ex.)
 
 Make sure you are making GET requests instead of POST, otherwise these won't work.
 
