@@ -8,6 +8,6 @@ http://localhost:8080/list - will list your device serial number. The API is usi
 
 http://localhost:8080/status/<serial-number> - will give you a status read of the FTDI chip showing what model of the device it is and other bits. Don't use "<>" when you put your serial number. (i.e http://localhost:8080/status/MDA01705)
 
-http://localhost:8080/set/<serial>/NumWindows/<number Of tiles> - this function sets the multiview Windows number. !Warning - the numbering starts from 0 rather than 1 so if you want a 4 way multiview you need to type "3" not "4" 
+http://localhost:8080/set/<serial>NumWindows/<number Of tiles> - this function sets the multiview Windows number. !Warning - the numbering starts from 0 rather than 1 so if you want a 4 way multiview you need to type "3" not "4" 
 
-http://localhost:8080/set/<serial>/MVLayout/<layout number> - This function sets the MVLayout that you have previously setup using UCP software. Unfortunately, you're not going to be able to position the tiles and create custom layouts using this software but you can change the Layouts that you have previously setup using the UCP software.
+http://localhost:8080/set/<serial>MVLayout/<layout number> - This function sets the MVLayout that you have previously setup using UCP software. Unfortunately, you're not going to be able to position the tiles and create custom layouts using this software but you can change the Layouts that you have previously setup using the UCP software.
