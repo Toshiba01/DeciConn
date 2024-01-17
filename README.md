@@ -5,6 +5,8 @@ This repository it made the original work of Quentin and Stuart to be available 
 
 After you launch the application, a webserver will run on port 8080. You can access it either via your "localhost" or via local ip (or public ip after you setup your portforwarding). 
 
+Make sure you are making GET requests instead of POST, otherwise these won't work.
+
 http://localhost:8080/list - will list your device serial number. The API is using serial number to identify between multiple devices. ( Yes you can use multiple devices ) 
 
 http://localhost:8080/status/your-serial - will give you a status read of the FTDI chip showing what model of the device it is and other bits (i.e http://localhost:8080/status/MDA01705)
